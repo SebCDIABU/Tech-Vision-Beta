@@ -1,0 +1,279 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   custom buttons
+   ========================================================================== */
+
+.arrow{
+	font-size: 20px;
+}
+.start-project{
+  padding-top:20px;
+}
+.start-project .btn{
+ 	-moz-border-bottom-colors: #F9564A;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+   /* background-color: #F5F5F5;*/
+    background-image: linear-gradient(to bottom, #F9564A, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #B3B3B3;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);*/
+    vertical-align: middle;
+    background: #fa6b4c; /* Old browsers */
+	background: -moz-linear-gradient(top, #fa6b4c 0%, #fa6b4c 46%, #fa6b4c 58%, #fa6b4c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa6b4c), color-stop(46%,#fa6b4c), color-stop(58%,#fa6b4c), color-stop(100%,#fa6b4c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* W3C */
+}
+
+.start-project .btn-large {
+    border-radius: 6px 6px 6px 6px;
+    font-size: 17.5px;
+    padding: 11px 19px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: none;
+
+}
+
+.start-project .btn.active, .btn:active {
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+.start-project .btn:hover, .start-project .btn:focus {
+	-moz-border-bottom-colors: #F9564A;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-width: 1px;
+    background-position: 0 -15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: background-position 0.1s linear 0s;
+   	background: #fa6b4c; /* Old browsers */
+	background: -moz-linear-gradient(top, #fa6b4c 0%, #fa6b4c 46%, #fa6b4c 58%, #fa6b4c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fa6b4c), color-stop(46%,#fa6b4c), color-stop(58%,#fa6b4c), color-stop(100%,#fa6b4c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fa6b4c 0%,#fa6b4c 46%,#fa6b4c 58%,#fa6b4c 100%); /* W3C */
+}
+
+
+/* ==========================================================================
+   custom page fonts
+   ========================================================================== */
+h1,h2,h3,h4,h5,h6,p,a{
+	font-weight: 400;
+	font-family:'Roboto Condensed', sans-serif;
+}
+/* ==========================================================================
+   Nav-Bar/Header custom styles
+   ========================================================================== */
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.72);
+}
+.navbar-inverse .navbar-inner {
+    background-color: #404040;
+    background-image: linear-gradient(to bottom, #404040, #4D4D4D);
+    background-repeat: repeat-x;
+    border-color: #252525;
+}
+.navbar .nav{
+	margin-top: 3em;
+}
+.navbar-fixed-top{
+	margin-bottom: 20px;
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
+	background:#404040;
+	color:#FF6760;
+}
+
+.nav > li > a{
+	font-size: 1.200em;
+
+}
+.logo{
+	width:100px;
+}
+
+/* ==========================================================================
+   Page Styles
+   ========================================================================== */
+
+.hero-unit{
+	margin-top:130px;
+	margin-bottom: 50px;
+	padding:0;
+	background:none;
+
+}
+.hero-image{
+	margin-top: 50px;
+}
+
+.hero-intro{
+   margin-left: 2px;
+}
+.hero-intro .span7{
+	margin-left: 0;
+}
+.hero-intro h1{
+	color:#EB6A61;
+  font-size: 72px;
+}
+
+.hero-intro .span7 h3, .hero-intro .span7 p, .hero-intro .span5 .number{
+	color:#666666;
+}
+.hero-intro .span5 .number{
+  color:#666666;
+   text-align: center;
+    margin-top:30px;
+     }
+
+/*what we do section*/
+.what-we-do{
+	background:#404040;
+  padding:60px 0 40px 0;
+}
+.what-we-do h1{
+	text-align: center;
+	color:#838383;
+  font-size:72px;
+	margin-bottom: 0.8em;
+  margin-top:0;
+}
+.what-we-do h2{
+	text-align: center;
+	color:#FA6B4C;
+	letter-spacing: 1px;
+}
+.what-we-do p{
+	font-size:1.4em;
+	text-align: center;
+	color:#808080;
+}
+
+.web-design, .web-development,.process-strategy{
+  display:block;
+  margin:auto;
+}
+
+.number{
+  text-align: center;
+}
+
+/*recent projects*/
+.recent-projects{
+	position:relative;
+	width:100%;
+	background: url('../img/recent-project-bg.png') repeat-y 0 0 transparent;
+	min-height: 450px;
+}
+.recent-projects-bg{
+width:100%;
+position:relative;
+z-index: -1;
+}
+
+
+
+/* ==========================================================================
+   Responsive break-points
+   ========================================================================== */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+  }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+.ipad{display: block; margin: 10px auto auto;}
+
+.hero-unit {
+  margin-top: 0;
+  margin-bottom: 10px;
+   }
+
+.hero-intro .span5 .number{
+  font-size: 0.9em;
+  color: #666666;
+  text-align: center;
+  margin-top: 30px;
+    }
+.hero-intro h1{
+  font-size: 3em;
+   }
+.hero-intro h3{
+ font-size: 1.200em
+  }
+.hero-intro p{
+  font-size: .9em;
+  margin-left:0;
+}
+
+.start-project{
+  margin-bottom:20px;
+   }
+.start-project .btn{
+  font-weight: 700;
+   }
+
+.what-we-do h2{
+  font-size: 1.9em;
+   }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+	.hero-unit { margin-top: 0; }
+
+  .hero-intro .span5 .number{
+   font-size: 1.3em;
+   color:#666666;
+   text-align:
+   center;
+   margin-top:30px;
+ }
+
+}
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	.hero-unit {margin-top: 0;}
+
+ }
+
+
+
+
+
+
